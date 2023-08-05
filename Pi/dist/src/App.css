@@ -1,0 +1,17 @@
+.App {
+  min-height: 100vh;
+  color: #fff;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
